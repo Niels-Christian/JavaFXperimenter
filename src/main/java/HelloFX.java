@@ -16,7 +16,7 @@ public class HelloFX extends Application {
     public void start(Stage stage) throws Exception {
         String version = System.getProperty("javafx.version");
         Label label = new Label("Hello from JavaFX: " + version);
-        TextField hejsa = new TextField("Fisk er ikke landdyr");
+        TextField hejsa = new TextField("Fisk er ikke landdyr !!!");
 
         Label label1 = new Label("Hello from JavaFX: " + version);
         Label label2 = new Label("Hej IT 62450!");
